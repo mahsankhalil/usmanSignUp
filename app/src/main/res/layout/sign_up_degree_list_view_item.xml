@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="20dp"
+    android:background="@android:color/darker_gray"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:background="@drawable/vision"
+        android:id="@+id/sign_up_degree_list_view_item_pic"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+
+    <TextView
+        android:id="@+id/sign_up_degree_list_view_item_text"
+        app:layout_constraintLeft_toRightOf="@id/sign_up_degree_list_view_item_pic"
+        app:layout_constraintTop_toTopOf="@id/sign_up_degree_list_view_item_pic"
+        app:layout_constraintBottom_toBottomOf="@id/sign_up_degree_list_view_item_pic"
+        android:layout_marginLeft="50dp"
+        android:text="Degree Title"
+        android:textSize="20sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</android.support.constraint.ConstraintLayout>
